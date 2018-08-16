@@ -69,7 +69,7 @@
   </section>
 
   <section id="testimonial">
-    <div class="container text-left">
+    <div class="container text-left whoisAli">
       <h1>Who is Ali? </h1>
       <p class="customer text-left">Ali is an energetic student actively searching for experience in a technical role to
         demonstrate his technical, cooperative, and communication skills in software enginnering or related field.
@@ -96,21 +96,21 @@
   <section id="testimonial">
     <div class="container text-left">
       <div class = "row">
-        <div class="col-md-4 col-sm-6">
+        <div class="col-md-4 col-sm-6 cookingTrans">
           <h1>Cooking</h1>
           <p class="customer text-left">I love food! I adore the creative processes that's behind cooking.
             There's almost an art to cooking where you start from absolutely nothing and create
             something completely unique and beautiful. And at the end,
             you get to eat it or share it and spread some happiness! </p>
         </div>
-        <div class="col-md-4  col-sm-6">
+        <div class="col-md-4  col-sm-6 exerciseTrans">
           <h1>Exercising</h1>
           <p class="customer text-left">I feel such a sense of freedom and happiness. There is nothing like the burn
             in your muscles after pushing youself to the abosutele limit.
             It's addicting. </p>
 
         </div>
-        <div class="col-md-4  col-sm-12">
+        <div class="col-md-4  col-sm-12 learningTrans">
           <h1>Learning</h1>
           <p class="customer learning text-left"> Early on, I realized that knowledge is not only something I want,
              it's something I crave. I need to learn. To attain an understanding,
@@ -303,8 +303,35 @@
           duration: 500,
           origin:'bottom',
           distance:'20px',
-          delay: 500
+          delay: 500,
+          viewFactor:.9
         });
+        sr.reveal('.whoisAli', {
+          duration: 500,
+          origin:'bottom',
+          distance:'20px',
+          delay: 500,
+          viewFactor:.4
+        });
+        sr.reveal('.cookingTrans', {
+          duration: 1500,
+          origin:'left',
+          distance:'100px',
+          viewFactor:.4
+        });
+        sr.reveal('.exerciseTrans', {
+          duration: 1500,
+          origin:'bottom',
+          distance:'100px',
+          viewFactor:.4
+        });
+        sr.reveal('.learningTrans', {
+          duration: 1500,
+          origin:'right',
+          distance:'100px',
+          viewFactor:.4
+        });
+
 
     </script>
 
