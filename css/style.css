@@ -144,3 +144,11 @@ p{
   background-size:cover
 
 }
+
+.reachout{
+  margin-top: 40 px;
+  background: linear-gradient( rgba(0.4, 0, 0, 0.8), rgba(0, 0, 0, 0.3) ), url('../img/reachout.jpg');
+  background-repeat: no-repeat;
+  background-size:cover
+
+}
